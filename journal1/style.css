@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: rgb(147, 250, 255);
+}
+h1{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    /* display:block 
+    margin-right: auto;
+    margin: 0 auto 0 auto;
+    margin-left: auto;*/
+
+    padding: 20px 0;
+    font-family: 'Merriweather', seri
+}
+h2{
+    background-color: rgb(147, 250, 255);
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    font-family: 'Merriweather', seri
+}
+p{
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width:400px;
+    margin: 5px auto; 
+    border: 5px dotted rgb(253, 118, 157);
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+header{
+    background-color: rgb(253, 118, 157);
+    padding: 50px;
+}
+section{
+    position: relative;
+}
+
+div{
+    background-color: rgb(147, 250, 255);
+    
+}
