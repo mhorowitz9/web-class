@@ -1,48 +1,103 @@
 
-body{
-    font-family: 'PT Sans', sans-serif;
-    background-color: rgb(147, 250, 255);
+body {
+    background-image:url(images/librarybook.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h1{
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-    /* display:block 
-    margin-right: auto;
-    margin: 0 auto 0 auto;
-    margin-left: auto;*/
-
-    padding: 20px 0;
-    font-family: 'Merriweather', seri
+.open
+{
+        
+     
+        font-style: italic;
+        background-color: rgb(255, 255, 255);
+            
+            position: relative;
+            
+            width: 250px;
+            height: 50px;
+            left: 560px;
+            top: 0px;
+            right: 100px;
+            bottom:0px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.1;
+            
 }
-h2{
-    background-color: rgb(147, 250, 255);
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-    font-family: 'Merriweather', seri
+.name{
+    font-style:normal;
+    opacity: .9;
+        background-color: rgb(255, 255, 255);
+            
+            position: relative;
+            
+            width: 160px;
+            height: 20px;
+            left: 580px;
+            top: 0px;
+            right: 0px;
+            bottom:0px;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.1;
 }
 p{
-    background-color: rgb(255, 255, 255);
-    padding: 30px;
-    width:400px;
-    margin: 5px auto; 
-    border: 5px dotted rgb(253, 118, 157);
-    border-radius: 15px;
-    text-align: center;
+    background-color: rgb(252, 254, 255);
+    font-weight: normal;
 
 }
-
-header{
-    background-color: rgb(253, 118, 157);
-    padding: 50px;
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+      
 }
-section{
-    position: relative;
-}
-
-div{
-    background-color: rgb(147, 250, 255);
+.child1{
+background-color: rgba(255, 255, 98, 0.844);
     
+    position: absolute;
+    font-weight: normal;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 450px;
+    height: 400px;
+    left: 490px;
+    top: 190px;
+    right: 120px;
+    bottom:0px;
+    
+ 
 }
+.child2{
+        background-color: rgba(98, 255, 218, 0.844);
+        
+        position: absolute;
+        font-weight: normal;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 450px;
+        height: 250px;
+        
+        left: 490px;
+        top: 690px;
+        right: 120px;
+        bottom:0px;
+        
+     
+    }
+    .child3{
+        background-color: rgba(255, 98, 213, 0.844);
+        position: absolute;
+        font-weight: lighter;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        width: 450px;
+        height: 250px;
+        left: 490px;
+        top: 1099px;
+        right: 120px;
+        bottom:0px;
+        
+        
+     
+    }
+
