@@ -6,47 +6,90 @@
 }
 
 body{
-
-    font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Young Serif', serif, 'Hindi', san-serif;
 }
 
 #opener {
     background-image: url(images/virginriverbackground.jpg);
-    height: 1500px;
+    height: 1100px;
 }
 
 .head
 {
             font-style: italic;
-            background-color: rgb(255, 255, 255);
-            width: 400px;
-            height: 90px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            font-size: 24px;
+            font-family: 'Young Serif', serif, 'Hindi', san-serif;
             font-weight: normal;
-            line-height: 1.1;
+            line-height: 1.0;
             margin: 0 auto;
+            padding: 60px;
+            text-align: center;
+            background: #359340a3;
+            
             
 }
+
 h1{
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 36px;
+    background-color: rgba(255, 240, 240, 0.887);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    font-size: 48px;
+    width:500px;
+    right:-450px;
+    border-style: dotted ;
+   
+}
+h6{
+    background-color: rgba(255, 240, 240, 0.887);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    width:150px;
+    right:-700px;
+    height:30px;
+    font-size: 24px;
+    border-style: dotted ;
+    
+   
+}
+h7{
+    background-color: rgba(255, 240, 240, 0.887);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    width:100px;
+    right:-700px;
+    height:28px;
+    font-size: 24px;
+    border-style: dotted ;
+    
+   
+}
+h2{
+    background-color: rgba(182, 244, 255, 0.614);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    font-size: 36px;
+    width:500px;
+    right:-450px;
+}
+h3{
+    background-color: rgba(95, 203, 209, 0.9);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    font-size: 24px;
+    width:500px;
+    right:-450px;
 }
 h4{
-            color: black;
-            font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(255, 240, 240, 0.887);
+            font-family: 'Young Serif', serif, 'Hindi', san-serif;
             font-size: 24px;
+            text-align: center;
 }
 h5{
-    color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    background-color: rgba(125, 197, 255, 0.834);
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+    font-size: 14px;
+    width:500px;
+    right:-450px;
 }
 p{
             background-color: rgb(255, 255, 255);
             font-weight: normal;
-            font-size: 24px
+            font-size: 17px;
 
 }
 
@@ -60,78 +103,90 @@ p{
 
 .cover {
             background-image: url(images/virginrivercover.jpeg);
+            
             background-repeat:no-repeat;
             background-size:contain;
             background-position: center;
-            width: 800px;
-            height: 800px;
+            
+            width: 650px;
+            height: 600px;
+            top: 15px;
             font-size: 24px;
             margin: 0 auto;
 }
 .summary{
 
-        background-color: rgb(118, 3, 3);
+        background-color: rgba(255, 255, 255, 0.714);
         font-weight: normal;
-        font-size: 24px
+        font-size: 24px;
+        top:50px;
+        
 }
-.doc {
+.learn{
 
-    background-color: rgba(122, 255, 239, 0.813);
+    background-color: rgba(255, 255, 255, 0.714);
     font-weight: normal;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-
-    width: 450px;
-    height: 550px;
-margin: 50px 20px;
+    font-size: 24px;
     
 }
 .mel {
 
-        background-color: rgba(255, 114, 114, 0.861);
+        background-color: rgba(255, 147, 147, 0.861);
         font-weight: normal;
-        font-family:Georgia, 'Times New Roman', Times, serif;
 
-        width: 450px;
-        height: 550px;
+        width: 500px;
+        height: 400px;
         margin: 50px 20px;
-        font-size: 24px;
         
 }
+.doc {
+
+    background-color: rgba(183, 255, 142, 0.813);
+    font-weight: normal;
+    font-family: 'Young Serif', serif, 'Hindi', san-serif;
+
+    width: 450px;
+    height: 300px;
+    margin: 50px 20px;
+    
+}
+
 
 .jack {
 
-            background-color: rgba(104, 45, 255, 0.836);
+            background-color: rgba(98, 185, 255, 0.836);
             font-weight: normal;
-            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-family: 'Young Serif', serif, 'Hindi', san-serif;
             margin: 50px 20px;
-            font-size: 24px;
-            width: 450px;
-            height: 550px;
-
             
-}
-.hope{
+            width: 450px;
+            height: 300px;
 
-    background-color: rgba(255, 206, 242, 0.836);
-    font-weight: normal;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    margin: 50px 20px;
-    font-size: 24px;
-    width: 450px;
-    height: 550px;
+}      
+.hope {
 
+                background-color: rgba(240, 199, 255, 0.836);
+                font-weight: normal;
+            font-family: 'Young Serif', serif, 'Hindi', san-serif;
+            margin: 50px 20px;
+            
+            width: 450px;
+            height: 300px;
+            }
     
-}
+
 .joey{
 
-    background-color: rgba(34, 109, 85, 0.836);
+    background-color: rgba(242, 255, 121, 0.836);
     font-weight: normal;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    
     margin: 50px 20px;
-    font-size: 24px;
+    
     width: 450px;
-    height: 550px;
-
+    height: 220px;
+    
+    
+   
     
 }
 
@@ -139,11 +194,45 @@ margin: 50px 20px;
     display:flex;
     flex-direction:row;
     justify-content: center;
+    
 
 }
 .people {
     background-image:url(images/cabin.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 1500px;
+    height: 1000px;
+}
+.lessons {
+    background-image:url(images/virginriverlesson.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 750px;
+}
+.lesson1{
+  background-color: rgba(0, 251, 255, 0.836);
+    font-weight: normal;
+    
+    margin: 50px 20px;
+    font-size: 24px;
+    width: 450px;
+    height: 550px;
+}
+.lesson2{
+      background-color: rgba(255, 0, 144, 0.836);
+    font-weight: normal;
+    
+    margin: 50px 20px;
+    font-size: 24px;
+    width: 450px;
+    height: 550px;
+}
+.lesson3{
+      background-color: rgba(255, 229, 142, 0.836);
+    font-weight: normal;
+   
+    margin: 50px 20px;
+    font-size: 24px;
+    width: 450px;
+    height: 550px;
 }
