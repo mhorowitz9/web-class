@@ -1,3 +1,4 @@
+/* css sheet works top to bottom*/ 
 body {
     background-color: #ffd3f2; 
      /*background-color: purple;*/
@@ -45,4 +46,4 @@ p{
 #highlight{/*ID*/
 background-color: rgba(0, 225, 255, 0.371)
 ;
-}
+} 
