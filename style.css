@@ -1,240 +1,48 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    position: relative;
+body {
+    background-color: #ffd3f2; 
+     /*background-color: purple;*/
+    /* background-color: rgd(234, 171, 255);*/
+    /* background-color: rgba(234, 171, 255, 0.7); */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-
-body{
-font-family: 'Young Serif', serif, 'Hindi', san-serif;
-}
-
-#opener {
-    background-image: url(images/virginriverbackground.jpg);
-    height: 1100px;
-}
-
-.head
-{
-            font-style: italic;
-            font-family: 'Young Serif', serif, 'Hindi', san-serif;
-            font-weight: normal;
-            line-height: 1.0;
-            margin: 0 auto;
-            padding: 60px;
-            text-align: center;
-            background: #359340a3;
-            
-            
-}
-
 h1{
-    background-color: rgba(255, 240, 240, 0.887);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    font-size: 48px;
-    width:500px;
-    right:-450px;
-
-   
+    font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: tomato;
+    font-size: 30px;
+}
+hr{
+    border-color: rgb(157, 255, 255);
 }
 h6{
-    background-color: rgba(255, 240, 240, 0.887);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    width:150px;
-    right:-700px;
-    height:30px;
-    font-size: 24px;
-  
-    
-   
-}
-h7{
-    background-color: rgba(255, 240, 240, 0.887);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    width:100px;
-    right:-700px;
-    height:28px;
-    font-size: 30px;
-    
-    
-   
+    text-transform:uppercase;
 }
 h2{
-    background-color: rgba(182, 244, 255, 0.614);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    font-size: 36px;
-    width:500px;
-    right:-450px;
-}
-h3{
-    background-color: rgba(95, 203, 209, 0.9);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    font-size: 24px;
-    width:500px;
-    right:-450px;
-}
-h4{
-    background-color: rgba(255, 240, 240, 0.887);
-            font-family: 'Young Serif', serif, 'Hindi', san-serif;
-            font-size: 24px;
-            text-align: center;
-            
-}
-h5{
-    background-color: rgba(125, 197, 255, 0.834);
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-    font-size: 14px;
-    width:500px;
-    right:-450px;
+    text-transform: uppercase;
+    color: rgba(249, 0, 50, 0.428);
 }
 p{
-            background-color: rgb(255, 255, 255);
-            font-weight: normal;
-            font-size: 17px;
-            padding: 16px;
-            line-height: 1.2;
-
+    font-size: 20px;
+    color: rgb(76, 22, 74);
 }
-
-.center {
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-                width: 50%;
+.orangeblue{/*class*/
+    color:orange;
+    font-weight: bold;
+    background-color: blue;
+    padding:50px 20px 50px 20px; /* top right bottom left short hand padding: 50px 20px; */
+    margin: 100px 0;
 }
-
-
-.cover {
-            background-image: url(images/virginrivercover.jpeg);
-            
-            background-repeat:no-repeat;
-            background-size:contain;
-            background-position: center;
-            
-            width: 650px;
-            height: 600px;
-            top: 15px;
-            font-size: 24px;
-            margin: 0 auto;
-}
-.summary{
-
-        background-color: rgba(255, 255, 255, 0.714);
-        font-weight: normal;
-        font-size: 24px;
-        top:50px;
-        
-}
-.learn{
-
-    background-color: rgba(255, 255, 255, 0.714);
-    font-weight: normal;
-    font-size: 24px;
-    
-}
-.mel {
-
-        background-color: rgba(255, 147, 147, 0.861);
-        font-weight: normal;
-        width: 500px;
-        height: 400px;
-        margin: 50px 20px;
-    
-        
-}
-.doc {
-
-    background-color: rgba(183, 255, 142, 0.813);
-    font-weight: normal;
-    font-family: 'Young Serif', serif, 'Hindi', san-serif;
-
-    width: 450px;
-    height: 300px;
-    margin: 50px 20px;
-
-    
-}
-
-
-.jack {
-
-            background-color: rgba(98, 185, 255, 0.836);
-            font-weight: normal;
-            font-family: 'Young Serif', serif, 'Hindi', san-serif;
-            
-            
-            width: 450px;
-            height: 300px;
-            margin: 50px 20px;
-
-}      
-.hope {
-
-                background-color: rgba(240, 199, 255, 0.836);
-                
-          
-            margin: 50px 20px;
-            
-            width: 450px;
-            height: 300px;
-            margin-bottom: 2px;
-            }
-    
-
-.joey{
-
-    background-color: rgba(242, 255, 121, 0.836);
-    font-weight: normal;
-    
-    margin: 50px 20px;
-    
-    width: 450px;
-    height: 300px;
-    margin-bottom: 2px;
-    
-   
-    
-}
-
-.flex-area {
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    height: 590px;
-   
-
-}
-.people {
-    background-image:url(images/cabin.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 1250px;
-}
-.lessons {
-    background-image:url(images/virginriverlesson.jpg);
-    background-size: cover;
-    background-position: bottom;
-    height: 800px;
-}
-.lesson1{
-  background-color: rgba(0, 251, 255, 0.836);
-    
-
-    width: 500px;
-    height: 300px;
-    margin: 50px 30px;
-}
-.lesson2{
-      background-color: rgba(255, 0, 144, 0.836);
-    font-weight: normal;
-    width: 500px;
-    height: 400px;
-    margin: 50px 30px;
-}
-.lesson3{
-      background-color: rgba(255, 229, 142, 0.836);
-    
-    width: 500px;
-    height: 400px;
-    margin: 50px 30px;
+#highlight{/*ID*/
+background-color: rgba(0, 225, 255, 0.371)
+;
 }
