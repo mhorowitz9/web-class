@@ -34,7 +34,7 @@ h1{
     font-size: 48px;
     width:500px;
     right:-450px;
-    border-style: dotted ;
+
    
 }
 h6{
@@ -44,7 +44,7 @@ h6{
     right:-700px;
     height:30px;
     font-size: 24px;
-    border-style: dotted ;
+  
     
    
 }
@@ -54,8 +54,8 @@ h7{
     width:100px;
     right:-700px;
     height:28px;
-    font-size: 24px;
-    border-style: dotted ;
+    font-size: 30px;
+    
     
    
 }
@@ -78,6 +78,7 @@ h4{
             font-family: 'Young Serif', serif, 'Hindi', san-serif;
             font-size: 24px;
             text-align: center;
+            
 }
 h5{
     background-color: rgba(125, 197, 255, 0.834);
@@ -90,6 +91,8 @@ p{
             background-color: rgb(255, 255, 255);
             font-weight: normal;
             font-size: 17px;
+            padding: 16px;
+            line-height: 1.2;
 
 }
 
@@ -133,10 +136,10 @@ p{
 
         background-color: rgba(255, 147, 147, 0.861);
         font-weight: normal;
-
         width: 500px;
         height: 400px;
         margin: 50px 20px;
+    
         
 }
 .doc {
@@ -148,6 +151,7 @@ p{
     width: 450px;
     height: 300px;
     margin: 50px 20px;
+
     
 }
 
@@ -157,21 +161,23 @@ p{
             background-color: rgba(98, 185, 255, 0.836);
             font-weight: normal;
             font-family: 'Young Serif', serif, 'Hindi', san-serif;
-            margin: 50px 20px;
+            
             
             width: 450px;
             height: 300px;
+            margin: 50px 20px;
 
 }      
 .hope {
 
                 background-color: rgba(240, 199, 255, 0.836);
-                font-weight: normal;
-            font-family: 'Young Serif', serif, 'Hindi', san-serif;
+                
+          
             margin: 50px 20px;
             
             width: 450px;
             height: 300px;
+            margin-bottom: 2px;
             }
     
 
@@ -183,8 +189,8 @@ p{
     margin: 50px 20px;
     
     width: 450px;
-    height: 220px;
-    
+    height: 300px;
+    margin-bottom: 2px;
     
    
     
@@ -194,45 +200,41 @@ p{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    
+    height: 590px;
+   
 
 }
 .people {
     background-image:url(images/cabin.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 1000px;
+    height: 1250px;
 }
 .lessons {
     background-image:url(images/virginriverlesson.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 750px;
+    height: 800px;
 }
 .lesson1{
   background-color: rgba(0, 251, 255, 0.836);
-    font-weight: normal;
     
-    margin: 50px 20px;
-    font-size: 24px;
-    width: 450px;
-    height: 550px;
+
+    width: 500px;
+    height: 300px;
+    margin: 50px 30px;
 }
 .lesson2{
       background-color: rgba(255, 0, 144, 0.836);
     font-weight: normal;
-    
-    margin: 50px 20px;
-    font-size: 24px;
-    width: 450px;
-    height: 550px;
+    width: 500px;
+    height: 400px;
+    margin: 50px 30px;
 }
 .lesson3{
       background-color: rgba(255, 229, 142, 0.836);
-    font-weight: normal;
-   
-    margin: 50px 20px;
-    font-size: 24px;
-    width: 450px;
-    height: 550px;
+    
+    width: 500px;
+    height: 400px;
+    margin: 50px 30px;
 }
