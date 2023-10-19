@@ -1,0 +1,65 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgba(249, 118, 118, 0.8);
+    height: 100vh; 
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-size: auto;
+    background-image: url(images/candy.jpg);;
+    }
+    
+    .div1 {
+    grid-area: 1 / 1 / 3 / 5; 
+    background-image:url(images/sour.jpg);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: yellow;
+   
+   
+    
+    }
+    .div2 { grid-area: 1 / 2 / 2 / 4; 
+    background-image:url(images/mm.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 143, 210, 0.625);
+     }
+
+    .div3 { grid-area: 2 / 2 / 3 / 4; 
+    background-image:url(images/Hershey_chocolate_bar.jpeg);
+    background-size: contain;
+    width: 100vw;
+    background-color: blueviolet;
+
+    }
+    .div4 { grid-area: 3 / 1 / 4 / 6; 
+    background-image:url(images/jellybean.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-color: rgb(43, 226, 76);
+}
+    .div5 { grid-area: 1 / 5 / 4 / 6; 
+    background-image:url(images/kit-kat.jpg);
+    background-size: contain;
+    background-color: rgb(199, 28, 28);
+}
+    .div6 { grid-area: 3 / 4 / 4 / 5; 
+    background-image:url(images/lollipops.jpg);
+    background-size: contain;
+    background-color: rgb(238, 166, 254);
+}
+    .div7 { grid-area: 3 / 1 / 4 / 2; 
+    background-image:url(images/twizzler.jpg);
+    background-size: contain;
+    background-color: rgb(255, 0, 0);
+}
