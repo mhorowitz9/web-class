@@ -1,0 +1,179 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+#intro, #outro {
+    background-image:url(images/pexels-wayne-evans-567186.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#outro {
+    background-image:url(images/pexels-jorgearturo-andrade-921025.jpg);
+}
+
+#title, #ending {
+    background-color: rgb(97, 206, 239);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 99;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10%;
+    text-align: center;
+}
+#ending {
+    padding: 10%;
+}
+h1 {
+    font-size: 80px;
+    color: white;
+    font-weight: 400;
+    font-style:italic;
+}
+h2 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 28px;
+    font-family: 'Agbalumo', serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    background: #ff47cb;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+    top: 10px;
+    bottom: 80px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.btn:hover {
+    background: #ffe209;
+    text-decoration: none;
+  }
+
+footer {
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+  }
+footer p {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+footer a {
+    color: #666;
+    text-decoration:none;
+}
+footer a:hover {
+    color: white;
+}
+
+.center {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+    
+#page1 .div8 { 
+    grid-area: 1 / 1 / 2 / 3; 
+    padding: 10%;
+}
+
+
+p {
+    font-size: 24px;
+    color: white;
+    line-height: 2;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -20px;
+}
+
+
+i {
+    color:#7cc778;
+}
+
+
+
+
+/* PAGE 1 */
+
+#page1 .parent8 {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-area: 1 / 1 / 5 / 3;
+    height: 90vh;
+    width: 100%;
+    background-image:url(images/iphone.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 20%;
+    padding-bottom: 90%;
+    }
+    
+       
+#page1 .div8 { 
+    background-image:url(images/phone.jpg);
+    
+}
+
+@media screen and (max-width: 800px) {
+    #page1 .parent8
+    {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+
+}
+
