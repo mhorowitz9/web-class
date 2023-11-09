@@ -310,7 +310,7 @@ i {
         }
     #page5 .parent5{
         width: 100%;
-        background-image:url(images/stair.pdf);
+        background-image:url(images/stair.svg);
         background-color: #6e1313;
         background-size: 100% 100%;
         background-position: center;
@@ -322,7 +322,7 @@ i {
         #page7 .parent7{
             width: 100%;
             height: 1000px;
-            background-image:url(images/insta.pdf);
+            background-image:url(images/insta.svg);
             background-size: 60% 100%;
             background-position: top center;
             background-repeat: no-repeat;
@@ -352,7 +352,7 @@ i {
             #page8 .parent8{
                 width: 100%;
                 
-                background-image:url(images/shop.pdf);
+                background-image:url(images/shop.svg);
                 background-color: #00deee;
                 background-size: 60% 80%;
                 background-position: center;
@@ -486,7 +486,7 @@ i {
 
 .sew{
   
-    background-image: url(images/cinndysew.pdf);
+    background-image: url(images/cinndysew.svg);
     width: 100%;
     left: 300px;
     background-color: #fff0f0;
