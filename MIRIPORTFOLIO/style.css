@@ -1,0 +1,244 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+html,
+body {
+   height: 100%;
+
+}
+.colorChange {
+  color:black;
+  font-weight:bold;
+  animation: myanimation 30s infinite;
+}
+.section {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    display: inline-block;
+    border-bottom: 1px dotted #666666;
+  }
+@keyframes myanimation {
+  0% {background-color: pink;}
+  25%{background-color:rgb(255, 255, 150);}
+  50% {background-color: rgb(154, 252, 255);}
+  75% {background-color: rgb(197, 171, 255);}
+  100% {background-color: rgb(255, 148, 148);}
+}
+
+header {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    width: 80%;
+    margin: 0 10%;
+    padding: 20px 0;
+}
+
+h1,h2 a {
+    color: rgb(255, 255, 255);
+    width: 40%;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', Courier, monospace;
+}
+nav {
+    width: 60%;
+    text-align:right;
+}
+nav ul li {
+display: inline-block;
+font-size: 14px;
+text-transform: uppercase;
+margin: 0 10px;
+border:none;
+}
+a {
+    text-decoration:none;
+    background-color: rgb(4, 4, 4);
+    padding: 5px 10px;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Baskerville', Courier, monospace;
+}
+a:hover {
+    background-color:rgb(255, 0, 162);
+    color: rgb(29, 232, 255);
+    cursor:cell;
+    font-family: 'Libre Baskerville', Courier, monospace;
+}
+#opener {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+h2 {
+    color: rgb(0, 0, 0);
+    
+    font-family: 'Libre Baskerville', Courier, monospace;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.3;
+    font-style: italic;
+    
+}
+p {
+    color: rgb(74, 2, 99);
+    font-family: 'Mukta', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.3;
+    padding: 20px;
+   
+    
+}
+h3 {
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.3;
+    
+    
+    
+}
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', Courier, monospace;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.3;
+    
+    
+    
+}
+
+.quote{
+    width: 600px;
+    position: relative;
+    top: 20vw;
+    left: 30vh;
+    font-style: italic;
+    z-index: 10;
+    
+}
+.flex-area {
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    background-size: cover;
+    background-position: bottom;
+}
+
+ul {
+    list-style-type:none;
+}
+li {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    border-bottom: 1px dotted rgb(255, 167, 198);
+    padding: 10px 0 10px 0;
+    color: rgb(0, 0, 0);
+}
+.column {
+    width: 300px;
+    margin: 100px 50px 100px 50px;
+}
+span {
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.art {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item {
+    height: 200px;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.art0 {
+    background-image:url(images/miritreepainting.jpg);
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height:400px;
+}
+.art1 {
+    background-image:url(images/miriart.jpg);
+    
+}
+
+.grid-area {
+    
+    padding: 100px;
+}
+.grid-item p {
+    font-size: 12px;
+    
+    font-family: 'Inclusive Sans', sans-serif;
+    text-align:center;
+}
+nav {
+    width: 100%;
+    text-align: center;
+}
+a.button {
+    background-color: white;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: block;
+    width: 250px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    box-shadow: 3px 3px gray;
+    padding: 15px 25px;
+}
+a.button:hover {
+    color: gray;
+    transform: translate(2px,2px);
+    box-shadow: 1px 1px gray;
+}
+
+
+
+    /* MEDIA QUERIES */
+    @media screen and (max-width:750px) {
+        .flex-area {
+            flex-direction: column;
+        }
+        .column {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .art {
+            /* previous grid-template-columns: 3fr 1fr 1fr 1fr; */
+            grid-template-columns: 1fr;
+        }
+        .quote {
+            width: 80%;
+            top:0;
+            left:0;
+            margin: 250px auto;
+        }
+        
+        .text {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .text p {
+            font-size: 24px;
+            }
+        }        
