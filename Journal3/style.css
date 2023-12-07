@@ -1,0 +1,146 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+font-family: 'Courier Prime', monospace;
+font-family: 'Patrick Hand', cursive;
+
+}
+
+h2 {
+    font-size: 30px!important;
+    color: rgb(0, 0, 0);
+
+}
+
+
+footer {
+    background-color: rgb(195, 238, 255);
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+    font-family: 'Courier Prime', monospace;
+  }
+footer p {
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+
+.center {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+
+p {
+    font-size: 26px !important;
+    color: rgb(0, 0, 0);
+  
+    
+}
+h3{
+    font-size: 40px !important;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+}
+
+
+#page .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(185, 147, 255, 0.844);
+    }
+
+#page .div1 { 
+    background-image:url(images/artweb.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+  
+   
+}
+
+#page .div2 { 
+    padding: 10%;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #page .parent {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 230vh;
+         width: 100%;
+        background-color: rgba(255, 133, 166, 0.72);
+    }
+  
+    h3{
+        font-size: 50px !important;
+        line-height:1.3;
+        color:rgb(0, 0, 0);
+    }
+     
+    h2 {
+        font-size: 26px;
+        color:rgb(0, 0, 0);
+    }
+    p {
+        font-size: 30px !important;
+        color:rgb(0, 0, 0);
+    }
+    h3 {
+        font-size: 30px;
+    }
+    
+
+}
+    @media screen and (max-width: 778px) {
+        #page .parent {
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: 190vh;
+            width: 100%;
+            background-color: aquamarine;
+        }
+      
+        #page .div1 { 
+            background-image:url(images/artweb.jpeg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            height: 100vh;
+            width: 100%;
+            background-color: aquamarine;
+          
+           
+        }
+        p {
+            font-size: 18px !important;
+            color: black;
+          
+            
+        }
+        h3 {
+            font-size: 30px;
+            color: black;
+         
+        }
+    
+    
+}
