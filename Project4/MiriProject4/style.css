@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+}
+
+#title {
+    background-image: url('images/intro.gif');
+    background-size: contain;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: auto;
+    background-color: blue;
+}
+
+h1 {
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+}
+
+h2 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(136, 136, 136, 0.8);
+}
+p {
+    font-size: 24px;
+
+    line-height: 2;
+    color: rgb(0, 0, 0) !important;
+    font-weight: 400;
+background-color: #5affecec;
+    text-align: center;
+   
+}
+
+h3 {
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: -20px;
+    color: white;
+}
+.btn {
+    border-radius: 28px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    background: #059ba1;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    max-width: 60px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn:hover {
+    background: #000000;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(37, 37, 37);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 999;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+footer a {
+    color: #666;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
+#page1 .div1 {
+    grid-area: 1 / 1 / 2 / 3;
+    padding: 10%;
+    background-color: #3700ff; 
+    background-image: url(images/clock.jpeg); 
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+#page1 .div2 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: #ff4e7d;
+   
+}
+#page1 .div2:hover {
+    background-color: #4effdf;
+   
+}
+
+
+#page1 .div3 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    background-color: #544eff;
+ 
+}
+#page1 .div2:hover {
+    background-color: #4eff6c;
+   
+}
+ .pretzel,
+.museum {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+    transition: all 0.5s;
+    z-index: 2;
+}
+
+#page1 .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.pretzel:hover {
+    background-color: rgba(0, 22, 49, 0.225);
+    color: rgba(255, 0, 230, 0.144);
+}
+
+.museum:hover {
+    background-color: rgba(63, 0, 0, 0.402);
+    color: yellow;
+}
+
+/*PRETZEL
+
+*/
+#page2 .div4 {
+   
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+   height: 100%;
+    background-image: url(images/previewpretzel.svg);
+    
+    background-size: contain;
+    background-position: bottom;
+    background-color: #3700ff;
+    background-repeat: no-repeat;
+    
+}
+
+#page2 .div4:hover {
+    background-image: url(images/pretzels.svg);
+  
+
+   
+}
+
+.pretzel,
+.museum.cafe{
+    position: absolute;
+    top: 0;
+    background-color: rgba(27, 27, 27, 0.384);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+    transition: all 0.5s;
+}
+
+
+
+.pretzel:hover {
+    background-color: rgba(0, 22, 49, 0.355);
+    color: rgba(161, 8, 145, 0.246);
+}
+
+.museum:hover {
+    background-color: rgba(190, 0, 101, 0.063);
+    color: yellow;
+}
+
+#page3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+    p{
+        position:static;
+            font-style: normal;
+            font-size: 23px;
+            color: white;
+        }
+       
+        
+        .artwork:hover {
+            background-image: url(images/artwork.svg); 
+            transform: rotate(360deg);
+            transition: 5s;
+            cursor: crosshair;
+        }
+        
+        #page2 .artwork {
+            position: absolute;
+            width: 100%;
+            background-image: url(images/artwork.svg);
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            transition: transform 0.3s ease;
+        }
+        
+        #page2 .divmuseum,.divmuseumcafe p {
+            z-index: 2;
+        }
+        #page2 .cafe {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            background-image: url(images/wait.svg);
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            transition: transform 0s; /* No transition initially */
+            background-color: #3700ff;
+         
+       
+        }
+        
+        #page2 .cafe:hover {
+            background-image: url(images/cup.svg);
+            transform: rotate(360deg);
+            transition: transform 1s linear; 
+            cursor: crosshair;
+        }
+         
+        #page2 .divmuseumcafe {
+            grid-area: 1 / 1 / 3 / 2;
+            padding: 5%;
+            background-color: #aa9670; 
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+
+        #page2 .divmuseum {
+            grid-area: 1 / 1 / 3 / 2;
+            padding: 5%;
+            background-color: #aa9670; 
+            background-image: url(images/museum.svg);
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+
+        #page2 .artwork {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            background-image: url(images/artwork.svg);
+            background-size: contain;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            transition: transform 0s; 
+        }
+        
+        #page2 .artwork:hover {
+            background-image: url(images/artwork.svg);
+            transform: rotate(360deg);
+            transition: transform 1s linear; 
+            cursor: crosshair;
+        }
+        
+        #end {
+            background-image: url('images/end.gif');
+            background-size: contain;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height:100vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: auto;
+            background-color: blue;
+        }
+        .btnend {
+            border-radius: 28px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(0, 0, 0);
+            font-size: 18px;
+            background: #fff15a;
+            padding: 15px 15px;
+            text-decoration: none;
+            display: block;
+            max-width: 100px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        
+        .btnend:hover {
+            background: #ff4e7d;
+            text-decoration: none;
+        }
+
+        #page2 .cafe {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%;
+            background-color: rgba(27, 27, 27, 0.384);
+            transition: background-color 0.5s;
+        }
+        
